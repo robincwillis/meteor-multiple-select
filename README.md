@@ -1,2 +1,5 @@
 # meteor-multiple-select
-Multiple Select repackaged for Meteor 
+
+robincwillis:multiple-select
+
+Multiple Select repackaged for Meteor

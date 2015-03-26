@@ -1,0 +1,3 @@
+[submodule "multiple-select"]
+	path = multiple-select
+	url = https://github.com/wenzhixin/multiple-select

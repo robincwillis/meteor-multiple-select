@@ -1,0 +1,32 @@
+<head>
+	<title>example</title>
+	<style type="text/css">
+	button.example,
+	input.example,
+	select.multiple-select{
+		width:100%;
+		box-sizing:border-box;
+	}
+	button.example,
+	input.example{
+		padding:5px;
+		margin-bottom:30px;
+	}
+	</style>
+</head>
+
+<body>
+
+	{{> hello}}
+</body>
+
+<template name="hello">
+	<input class="example" type="text">
+	<button class="add-item example">Add</button>
+
+	{{>multipleSelect
+		options=options
+		settings=settings
+	}}
+
+</template>

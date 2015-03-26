@@ -1,0 +1,9 @@
+<template name="multipleSelect">
+	<div>
+	<select class="multiple-select" multiple="multiple">
+		{{#each options}}
+		<option value="{{value}}">{{label}}</option>
+		{{/each}}
+	</select>
+	</div>
+</template>
